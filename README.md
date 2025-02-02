@@ -14,6 +14,5 @@ In order to play this game, you must download the "request" library and the "pyg
 
 Sources:
 
-* Third party library: https://meaningpedia.com/5-letter-words?show=all
 * pygame documentation: https://www.pygame.org/docs/
 
