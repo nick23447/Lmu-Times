@@ -1,7 +1,8 @@
 """
 Author: Nicholas Laus
 Collaborators: Jaden Path, Nikita Smolyanoy
-Date: 4/30/24
+Created: 4/30/24
+Updated: 2/1/25
 Desctiption: Wordle Game
 
 """
@@ -11,7 +12,7 @@ import os
 from wordgenerator import get_random_word
 
 
-# pygame setup ## Add Comment
+# pygame setup
 pygame.init()
 screen = pygame.display.set_mode((620, 620))
 clock = pygame.time.Clock()
@@ -159,8 +160,6 @@ def game_loop():
         
         pygame.display.update()
         clock.tick(60)  # limits FPS to 60
-
-
 
 # if user guess correctly
 def win_screen():
