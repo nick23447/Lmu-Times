@@ -57,6 +57,7 @@ def text(word, text_color,font_type,font_size,x,y):
 
 # lights up play & help button when mouse hovers over & opens new display if mouse presses on either button (Code inspired from Lab 15)
 def button(type,x,y,w,h,action=None):
+    ## Add Comment
     mouse = pygame.mouse.get_pos()
     click = pygame.mouse.get_pressed()
 
@@ -89,6 +90,7 @@ def button(type,x,y,w,h,action=None):
 
 # title interface
 def game_intro():
+     ## Add Comment
 
     # fill screen, set title, and set play and help button
     screen.fill('#5F6A6A')
@@ -115,6 +117,7 @@ def game_intro():
      
 # game interface
 def game_loop():
+     ## Add Comment
 
     # fill screen and set title
     screen.fill('#AAB7B8')
