@@ -21,6 +21,7 @@ pygame.font.init()
 
 # load and resize images
 def load_img(name, x, y, resize = True):
+    ## Add Comment
     base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) 
     path = os.path.join(base_path, "images", name)  
     image = pygame.image.load(path)
@@ -29,7 +30,7 @@ def load_img(name, x, y, resize = True):
     icon = pygame.transform.smoothscale(image, (x, y))
     return icon
     
-
+# Condense?
 start_icon = load_img('start.png', 100,50)
 help_icon = load_img('help.png', 100,50)
 start_highlight = load_img('start_highlighted.png', 100,50)
