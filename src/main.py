@@ -5,6 +5,14 @@ Date: 4/30/24
 Desctiption: Wordle Game
 
 """
+"""
+TO-DO:
+
+
+
+
+
+"""
 import pygame 
 import pygame.gfxdraw 
 import os
