@@ -11,8 +11,7 @@ import os
 from wordgenerator import get_random_word
 
 
-
-# pygame setup
+# pygame setup ## Add Comment
 pygame.init()
 screen = pygame.display.set_mode((620, 620))
 clock = pygame.time.Clock()
@@ -85,8 +84,7 @@ def button(type,x,y,w,h,action=None):
         else:
             screen.blit(back, (x, y))
     
-  
-    
+
 # title interface
 def game_intro():
 
