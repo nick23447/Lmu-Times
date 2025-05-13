@@ -8,6 +8,8 @@ Desctiption: Wordle Game
 """
 TO-DO:
 
+-Need to add Block comments for functions/classes
+
 
 
 
