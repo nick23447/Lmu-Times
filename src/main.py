@@ -47,6 +47,7 @@ boxes_icon = load_img('00 copy.png',0,0,resize=False)
 
 # Input text to blit it at your desired location
 def text(word, text_color,font_type,font_size,x,y):
+    ## Add Comment
     font = pygame.font.Font(font_type, font_size)
     text = font.render(word, True, text_color)
     textRect = text.get_rect()
