@@ -335,7 +335,7 @@ class Box():
     def delete_box(self, event_key):
          ## Add Comment
 
-         
+
         # if user presses delete, blits white rect to "erase" current letter
         if event_key == pygame.K_BACKSPACE:
              # makes sure you can't delete if no letters in row
@@ -358,6 +358,8 @@ class Box():
 
 
     def row_full(self, event_key):
+         ## Add Comment
+
         # if user presses return, checks if their guess is correct
         if event_key == pygame.K_RETURN:
             # if correct, move to win screen
@@ -382,6 +384,8 @@ class Box():
 
         
     def finished_game(self):
+        ## Add Comment
+
         # if user fills all rows without guessing correctly, moves to lose screen
         if self.row_count > 5:
             lose_screen()
