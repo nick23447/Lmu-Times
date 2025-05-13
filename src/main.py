@@ -21,7 +21,7 @@ pygame.font.init()
 
 # load and resize images
 def load_img(name, x, y, resize = True):
-    ## Add Comment
+    ## Add Block Comment
     base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) 
     path = os.path.join(base_path, "images", name)  
     image = pygame.image.load(path)
