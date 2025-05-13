@@ -164,6 +164,7 @@ def game_loop():
 
 # if user guess correctly
 def win_screen():
+     ## Add Comment
 
     #fill screen and set title 
     screen.fill('#5F6A6A')
@@ -190,6 +191,7 @@ def win_screen():
 
 # if user runs out of guesses
 def lose_screen():
+     ## Add Comment
 
     #fill screen and set title 
     screen.fill('#5F6A6A')
@@ -218,6 +220,7 @@ def lose_screen():
 
 # if user presses help
 def help_menu():
+     ## Add Comment
 
     # fill screen and set title  
     screen.fill('#5F6A6A')
@@ -247,8 +250,10 @@ def help_menu():
 
 # Allows user to guess the word
 class Box():
+     ## Add Comment
 
     def __init__(self):
+         ## Add Comment
         self.abc_keys = [pygame.K_a,pygame.K_b,pygame.K_c,pygame.K_d,pygame.K_e,pygame.K_f,pygame.K_g,pygame.K_h,pygame.K_i,pygame.K_j,pygame.K_k,pygame.K_l,pygame.K_m,pygame.K_n,pygame.K_o,pygame.K_p,pygame.K_q,pygame.K_r,pygame.K_s,pygame.K_t,pygame.K_u,pygame.K_v,pygame.K_w,pygame.K_x,pygame.K_y,pygame.K_z]
         self.abc_dict = {'97':'A','98':'B','99':'C','100':'D','101':'E','102':'F','103':'G','104':'H','105':'I','106':'J','107':'K','108':'L','109':'M','110':'N','111':'O','112':'P','113':'Q','114':'R','115':'S','116':'T','117':'U','118':'V','119':'W','120':'X','121':'Y','122':'Z'}
 
@@ -273,6 +278,7 @@ class Box():
        
 
     def update_box(self, event_key):
+         ## Add Comment
 
         # if user presses a letter key, blits letter onto box, adds to x coordinate each time to acccount for the 5 boxes
         if event_key in self.abc_keys:
@@ -296,6 +302,7 @@ class Box():
 
 
     def colored_boxes(self, event_key):
+         ## Add Comment
 
         # if user presses enter and row is filled, changes color of boxes depending on if letter is correct/ in right positon/ incorrect
         # iterates through self.word to see if letter in the actual word and uses letter coordinates to correctly re-blit letters onto colored boxes
@@ -326,6 +333,9 @@ class Box():
 
 
     def delete_box(self, event_key):
+         ## Add Comment
+
+         
         # if user presses delete, blits white rect to "erase" current letter
         if event_key == pygame.K_BACKSPACE:
              # makes sure you can't delete if no letters in row
