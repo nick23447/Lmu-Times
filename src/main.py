@@ -30,7 +30,7 @@ def load_img(name, x, y, resize = True):
     icon = pygame.transform.smoothscale(image, (x, y))
     return icon
     
-# Condense?
+# Condense???
 start_icon = load_img('start.png', 100,50)
 help_icon = load_img('help.png', 100,50)
 start_highlight = load_img('start_highlighted.png', 100,50)
@@ -47,7 +47,7 @@ boxes_icon = load_img('00 copy.png',0,0,resize=False)
 
 # Input text to blit it at your desired location
 def text(word, text_color,font_type,font_size,x,y):
-    ## Add Comment
+    ##  Add Block Comment
     font = pygame.font.Font(font_type, font_size)
     text = font.render(word, True, text_color)
     textRect = text.get_rect()
