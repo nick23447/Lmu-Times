@@ -42,7 +42,7 @@ This project includes a **requirements.txt** file to simplify installation.
 
 ---
 
-Sources:
+** Sources **:
 
 * pygame documentation: https://www.pygame.org/docs/
 * Inspired by Wordle: https://www.nytimes.com/games/wordle/index.html
